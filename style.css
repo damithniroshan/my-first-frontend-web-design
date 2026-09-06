@@ -1,0 +1,386 @@
+*{margin: 0;
+padding:0;
+box-sizing:border-box;
+font-family:sans-serif;
+
+}
+section{
+	width:100%;
+	height:100vh;	
+}
+section header{
+	display:flex;
+	align-items:center;
+	justify-content:space-around;
+	box-shadow:0 0 20px rgba(0,0,0,0.3);
+	
+}
+section header .logo{
+	font-size:65px;
+	color:black;
+	text-decoration:none;
+	font-weight:bold;
+	margin:15px 0;
+	
+	
+	
+	
+}
+section header .logo span{
+	color:#9A7B4F;
+	
+}
+section header nav li{
+	display: inline-block;
+	margin: 4px 4px;
+	padding: 10px 30px;
+	font-size:20px;
+	
+}
+section header nav li a{
+	color:black;
+	text-decoration:none;
+	
+	
+	
+	
+}
+section header nav li a:hover{
+	color:red;
+	
+	
+	
+}
+section header p{
+	cursor:pointer;
+	padding:10px 25px;
+	border:5px solid #652A0E;
+	border-radius:30px;
+	transition:0.3s;
+	
+	
+	
+	
+}
+section header p:hover{
+	color:white;
+	background:#D2B48C;
+}
+section .texts h1{
+	position: absolute;
+	top:30%;
+	left:4%;
+	font-size:40px;
+	color:#6a6666;
+	font-family:Algerian;
+	text-align:center;
+}
+section .texts h1 span {
+	color:#800000;
+	font-family:Algerian;
+}
+section .texts p {
+	width: 650px;
+	position: absolute;
+	top: 50%;
+	left:4%;
+	line-height: 26px;
+	text-align: justify;
+}
+section .background-image img{
+	width:750px;
+	position:absolute;
+	top: 45%;
+	left: 45%;
+	margin-left: 60px;
+	background-repeat:no-repeat;
+	/*display:flex;*/
+}
+hr{
+	border-width: 28px;
+	
+}
+.information{
+	height: 100px;
+	width:auto;
+	background-color:#CEBAAB;;
+	
+	
+}
+.information img{
+	height:70px;
+	/*width:60px;*/
+	justify-content:center;
+	justify-content:center;
+	align-items:align and center;
+	
+}
+.options{
+	display:flex;
+	justify-content:space-around;
+	background-color:#CEBAAB;
+	text-align: center;
+	
+	
+}
+.options img{
+	height:70px;
+	/*width:60px;*/
+}
+.copyright{
+	background-color:#654321;
+	color:white;
+margin:100;
+}
+video{
+	width:640px;
+	display:block;
+	margin:auto;
+}
+#about{
+	font-family:Algerian;
+	font-size:30px;
+}
+#vision{
+	border-left:160px solid red;
+	height:4px;
+	margin:10px;
+	font-size:20px;
+	display:inline-block;
+	vertical-align:middle;
+	font-family:Algerian;
+	text-align:justify;
+	
+	
+	
+}
+#mission{
+	border-left:160px solid red;
+	height:4px;
+	margin:10px;
+	font-size:20px;
+	display:inline-block;
+	vertical-align:middle;
+	font-size:20px;
+	font-family:Algerian;
+}
+.company{
+	background-color:#CEBAAB;
+	/*height:100px;*/
+}
+#products{
+	font-family:Algerian;
+	font-size:40px;
+	color:#9A7B4F;
+}
+
+#product_tag{
+	font-family:Algerian;
+	font-size:30px;
+	color:#9A7B4F;
+	text-align:center;
+	
+}
+
+.product-container {
+    display:flex;
+    /*flex-direction: column;  Stack product items vertically */
+	flex-wrap:wrap;/*wrap to new row*/
+	justify-content:space-between ;/*add space between columns*/
+	align-content:space-between;/*ad space between raw*/
+}
+
+.product-item {
+   /* display: flex;
+    border: 8px solid #000; /* Add a border around each product item */
+    /*margin-bottom: 60px; /* Adjust the margin to separate the product items vertically */
+   /* padding: 10px; /* Add padding to create space inside each product item */
+	border-radius:20px;/*around the border coners*/
+	flex: 0 0 calc(50% - 20%);/*team teake 50% wide and minus spacing*/
+	border:9px solid #000;/*add border*/
+	margin:10px;/*ad margin for sepatare product  item*/
+	padding:20px;/*create space in side produts items*/
+	box-sizing:border-box;/*include padding item size*/
+}
+
+.product-image {
+    /*flex: 1; Make the image section grow to fill available space 
+    padding-right: 20px;  Add spacing between image and details */
+	
+}
+
+.product-image img {
+    max-width: 100%; /* Make images fit the size of their container */
+	display:block;/*remove extra space under the image*/
+	
+}
+
+.product-details {
+    flex: 2; /* Make the details section grow to fill available space */
+}
+
+img {
+    max-width: 100%; /* Make sure the images are responsive */
+}
+.product_name{
+	font-family:Algerian;
+}
+
+/*.rating{
+	font-size:0;
+}*/
+
+.star{
+	font-size:25px;
+	color:gray;
+	position:relative;
+	
+	
+}
+
+.star.full{
+	color:gold;
+	
+	
+}
+
+
+
+
+.star.empty{
+	color:gray;
+	
+}
+
+
+#tag{
+	font-family:Algerian;
+	font-size:32px;
+	color:#9A7B4F;
+	text-align:center;
+}
+#pnews{
+	font-size:20px;
+	padding:30px 300px;
+	text-align:center;
+}
+
+.image-grid{
+	display:grid;
+	grid-template-columns:repeat(4,1fr);
+	grid-gap:10px;
+	border-radius:20px;/*around the border coners*/
+	flex: 0 0 calc(50% - 20%);/*team teake 50% wide and minus spacing*/
+	border:9px solid #000;/*add border*/
+	margin:10px;/*ad margin for sepatare product  item*/
+	padding:20px;/*create space in side produts items*/
+	box-sizing:border-box;/*include padding item size*/
+	background-color:#9A7B4F;
+}
+
+.image-grid img{
+	
+	border-radius:80px;
+	
+}
+
+.image-grid p{
+	text-align:center;
+	
+}
+
+.image-grid h3{
+	text-align:center;
+}
+.border{
+	border-radius:20px;/*around the border coners*/
+	flex: 0 0 calc(50% - 20%);/*team teake 50% wide and minus spacing*/
+	border:9px solid #000;/*add border*/
+	margin:10px;/*ad margin for sepatare product  item*/
+	padding:20px;/*create space in side produts items*/
+	box-sizing:border-box;/*include padding item size*/
+	background-color:#EFDECD;
+}
+
+.contacts{
+	display:flex;
+	position:relative;
+	justify-content:center;
+	align-items:center;
+	
+}
+.contacts img{
+	width:50px;
+	/*max-width:100%;*/
+	
+	
+}
+
+.details{
+	/*padding:80px 100px;*/
+	
+}
+
+/*#newstag{
+	background-color:#654321;
+	color:white;
+ margin:100;
+ 
+}*/
+
+
+.sign{
+	display:flex;
+	justify-content:center;
+	align-items:center;
+	padding:120px;
+	position:relative;
+	background-image: url(../image/train.jpg);
+	background-size: cover;
+	background-repeat:no-repeat;
+	background-position:center;
+	opacity:0.7;
+	
+	
+}
+
+
+
+.login-box{
+	position:relative;
+	width:350px;
+	height:300px;
+	/*background:#D2B48C;*/
+	border-radius:20px;
+	display:flex;
+	justify-content:center;
+	align-items:center;
+	margin:30px;
+	border-bottom:9px solid white;
+	/*opacity:0.9;*/
+	border-top:9px solid black;
+	
+}
+
+.login-box:hover{
+	background-color:rgba(255,255,255,0.2);
+	
+}
+
+#login{
+	font-size:40px;
+	color:brown;
+	text-align:center;
+	
+}
+
+/*#up{
+	text-decoration:none;
+}*/
+/*#cart{
+	align-content:right;
+	width:56px;
+}*/
+
+
+
