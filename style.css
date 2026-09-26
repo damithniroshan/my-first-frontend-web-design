@@ -335,7 +335,7 @@ img {
 	align-items:center;
 	padding:120px;
 	position:relative;
-	background-image: url(../image/train.jpg);
+	background-image: url(train.jpg);
 	background-size: cover;
 	background-repeat:no-repeat;
 	background-position:center;
